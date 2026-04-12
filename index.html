@@ -51,15 +51,14 @@ canvas{display:block}
 #ibtn{background:transparent;border:2px solid rgba(90,62,43,.55);color:#5A3E2B;font-family:Georgia,serif;font-size:16px;letter-spacing:.2em;text-transform:uppercase;padding:20px 52px;cursor:pointer;-webkit-tap-highlight-color:rgba(197,106,61,.3);touch-action:manipulation;min-width:220px;min-height:64px}
 #ibtn:hover{border-color:#C56A3D;color:#C56A3D;background:rgba(197,106,61,.07)}
 </style>
-<!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZD9RXQZZ4"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-PZD9RXQZZ4');
-</script>  
+</script>
 </head>
 <body>
 
@@ -97,13 +96,10 @@ canvas{display:block}
   <div class="pdet"  id="pdet"></div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="libs/three.min.js"></script>
 <script>
 // ============================================================
 //  DATOS DEL MUSEO
-//  Para poner foto en un cuadro, escribe la URL en "foto:"
-//  Ejemplo:  foto: "https://mi-servidor.com/imagen.jpg"
-//  Para dejar sin foto, escribe:  foto: ""
 // ============================================================
 const SALAS = [
   { nombre:"¿Quiénes eran los Guane?",              color:0x7A4A28 },
@@ -119,28 +115,28 @@ const PIEZAS = [
   {
     sala:0, lado:"L", forma:"cuadro", escala:[4.29,2.73],
     tag:"Historia", titulo:"¿Quiénes eran los Guane?",
-    foto:"https://i.imgur.com/JxI7cze.jpeg",
+    foto:"img/JxI7cze.jpeg",
     desc:"Los Guane fueron un pueblo indígena precolombino que habitó el territorio que hoy corresponde al departamento de Santander. Eran una comunidad organizada con agricultura, artesanía y tejidos, con sus propias costumbres, creencias y formas de organización social.",
     det:"<span>Período:</span> Siglo VI–XVI d.C.<br><span>Territorio:</span> Río Chicamocha<br><span>Población:</span> ~70.000 personas"
   },
   {
     sala:0, lado:"L2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Historia", titulo:"Territorio y asentamiento",
-    foto:"https://i.imgur.com/4mZLQ6j.jpeg",
+    foto:"img/4mZLQ6j.jpeg",
     desc:"Los Guane ocuparon una extensa zona del nororiente colombiano. Sus principales centros de asentamiento estaban en Barichara, San Gil, Socorro, Vélez y lo que hoy es Bucaramanga.",
     det:"<span>Municipios:</span> Barichara, San Gil, Socorro<br><span>Río:</span> Chicamocha<br><span>Dpto:</span> Santander"
   },
   {
     sala:0, lado:"R", forma:"cuadro", escala:[4.29,2.73],
     tag:"Sociedad", titulo:"Organización social",
-    foto:"https://i.imgur.com/yzmvv7y.jpeg",
+    foto:"img/yzmvv7y.jpeg",
     desc:"Los Guane vivían en cacicazgos liderados por el 'Guanentá'. La sociedad estaba dividida en artesanos, agricultores y guerreros. Las mujeres eran las principales tejedoras y jugaban un rol central en la economía doméstica.",
     det:"<span>Gobierno:</span> Cacicazgo<br><span>Líder:</span> Guanentá<br><span>Rol femenino:</span> Tejido y agricultura"
   },
   {
     sala:0, lado:"R2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Sociedad", titulo:"Lengua y cosmovisión",
-    foto:"https://i.imgur.com/XqwLyl2.jpeg",
+    foto:"img/XqwLyl2.jpeg",
     desc:"Los Guane hablaban una lengua propia emparentada con el chibcha. Su cosmovisión giraba en torno al sol, el agua y los ancestros. Muchos topónimos actuales como Chicamocha y Bucaramanga son de origen Guane.",
     det:"<span>Lengua:</span> Guane (familia chibcha)<br><span>Palabras:</span> Chicamocha, Bucaramanga<br><span>Cosmovisión:</span> Sol, agua, ancestros"
   },
@@ -148,28 +144,28 @@ const PIEZAS = [
   {
     sala:1, lado:"L", forma:"cuadro", escala:[4.29,2.73],
     tag:"Cerámica", titulo:"La alfarería cotidiana",
-    foto:"https://i.imgur.com/lASNZTl.jpeg",
+    foto:"img/lASNZTl.jpeg",
     desc:"La cerámica doméstica Guane era producida principalmente por las mujeres. Fabricaban ollas, cuencos, múcuras y budares para cocinar, almacenar agua, chicha y alimentos. Las formas eran funcionales y estaban adaptadas a la vida diaria.",
     det:"<span>Técnica:</span> Modelado a mano<br><span>Usos:</span> Cocina, almacenamiento, agua<br><span>Productoras:</span> Mujeres"
   },
   {
     sala:1, lado:"L2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Cerámica", titulo:"Formas y decoración",
-    foto:"https://i.imgur.com/cakf0Uj.jpeg",
+    foto:"img/cakf0Uj.jpeg",
     desc:"La cerámica Guane se caracteriza por decoraciones geométricas en rojo y negro sobre fondo beige o crema. Los motivos incluyen líneas paralelas, triángulos, rombos y puntos. El acabado podía ser bruñido para impermeabilizar la vasija.",
     det:"<span>Colores:</span> Rojo, negro, beige<br><span>Motivos:</span> Geométricos<br><span>Acabado:</span> Bruñido"
   },
   {
     sala:1, lado:"R", forma:"cuadro", escala:[4.29,2.73],
     tag:"Cerámica", titulo:"La múcura — vasija de agua",
-    foto:"https://i.imgur.com/Wuxw1sb.jpeg",
+    foto:"img/Wuxw1sb.jpeg",
     desc:"La múcura era la vasija más importante del hogar Guane. Su forma de doble bulbo con cuello estrecho permitía mantener el agua fresca gracias a la porosidad de la arcilla. Era cargada por las mujeres desde los ríos y quebradas.",
     det:"<span>Forma:</span> Doble bulbo<br><span>Función:</span> Almacenar agua<br><span>Material:</span> Arcilla local"
   },
   {
     sala:1, lado:"R2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Cerámica", titulo:"Metate",
-    foto:"https://i.imgur.com/PVIORGN.jpeg",
+    foto:"img/PVIORGN.jpeg",
     desc:"El metate es un instrumento tradicional utilizado para moler granos y otros alimentos en la cocina mesoamericana. Originalmente, se fabricaba de piedra y se usaba principalmente por las mujeres indígenas para procesar ingredientes como el maíz y el cacao.",
     det:"<span>Forma:</span> Plana circular<br><span>Uso:</span> Asar arepas y yuca<br><span>Contexto:</span> Fogón doméstico"
   },
@@ -184,28 +180,28 @@ const PIEZAS = [
   {
     sala:2, lado:"L", forma:"cuadro", escala:[4.29,2.73],
     tag:"Economía", titulo:"Agricultura y cultivos",
-    foto:"https://i.imgur.com/ykFiDP0.jpeg",
+    foto:"img/ykFiDP0.jpeg",
     desc:"La base de la economía Guane era la agricultura. Cultivaban maíz, yuca, fríjol, algodón, tabaco y una gran variedad de frutas tropicales. Usaban terrazas de cultivo en las laderas del Chicamocha para aprovechar el terreno.",
     det:"<span>Cultivos:</span> Maíz, yuca, algodón, tabaco<br><span>Técnica:</span> Terrazas de cultivo<br><span>Clima:</span> Seco-cálido"
   },
   {
     sala:2, lado:"L2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Economía", titulo:"Intercambio y comercio",
-    foto:"https://i.imgur.com/VuUL3ku.jpeg",
+    foto:"img/VuUL3ku.jpeg",
     desc:"Los Guane practicaban el intercambio con pueblos vecinos como los Muiscas. Comerciaban mantas de algodón, sal, pescado seco del Chicamocha y productos agrícolas. Los tejidos eran su principal producto de exportación.",
     det:"<span>Socios:</span> Muiscas, Laches<br><span>Productos:</span> Mantas, sal, pescado<br><span>Moneda:</span> Trueque"
   },
   {
     sala:2, lado:"R", forma:"cuadro", escala:[4.29,2.73],
     tag:"Economía", titulo:"Pesca y caza",
-    foto:"https://i.imgur.com/8c64hZs.jpeg",
+    foto:"img/8c64hZs.jpeg",
     desc:"El río Chicamocha proveía abundante pesca. Los Guane también cazaban venados, armadillos y aves. La pesca era realizada con redes, anzuelos de hueso y venenos vegetales que aturdían a los peces.",
     det:"<span>Río:</span> Chicamocha<br><span>Técnicas:</span> Redes, anzuelos de hueso<br><span>Caza:</span> Venado, armadillo"
   },
   {
     sala:2, lado:"R2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Economía", titulo:"El algodón — riqueza Guane",
-    foto:"https://i.imgur.com/u58BhK3.jpeg",
+    foto:"img/u58BhK3.jpeg",
     desc:"El algodón era el producto más valioso de la economía Guane. Lo cultivaban en los valles cálidos del Chicamocha, lo hilaban con volantes de huso y lo tejían en telares de cintura. Las mantas de algodón Guane eran famosas en toda la región.",
     det:"<span>Cultivo:</span> Valles del Chicamocha<br><span>Herramienta:</span> Huso y telar<br><span>Valor:</span> Principal bien de intercambio"
   },
@@ -213,28 +209,28 @@ const PIEZAS = [
   {
     sala:3, lado:"L", forma:"cuadro", escala:[4.29,2.73],
     tag:"Textiles", titulo:"El arte del tejido",
-    foto:"https://i.imgur.com/d7P5dwZ.jpeg",
+    foto:"img/d7P5dwZ.jpeg",
     desc:"Los tejidos Guane en algodón eran tan finos que los cronistas españoles los compararon con los mejores tejidos europeos. Las mujeres tejían en telares de cintura mantas, hamacas, bolsos y ropa con patrones geométricos de gran complejidad.",
     det:"<span>Material:</span> Algodón nativo<br><span>Técnica:</span> Telar de cintura<br><span>Productos:</span> Mantas, hamacas, ropa"
   },
   {
     sala:3, lado:"L2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Textiles", titulo:"Patrones y significado",
-    foto:"https://i.imgur.com/f9LrIVQ.jpeg",
+    foto:"img/f9LrIVQ.jpeg",
     desc:"Los diseños tejidos comunicaban el clan, el estatus y la cosmovisión del portador. Los rombos representaban la tierra, las espirales el agua, y los colores indicaban el rango social. Cada manta era un texto visual que los Guane sabían leer.",
     det:"<span>Motivos:</span> Rombos, espirales, grecas<br><span>Colores:</span> Rojo, negro, ocre<br><span>Significado:</span> Linaje y estatus"
   },
   {
     sala:3, lado:"R", forma:"cuadro", escala:[4.29,2.73],
     tag:"Adornos", titulo:"Narigueras y orfebrería",
-    foto:"https://i.imgur.com/X8deq1O.jpeg",
+    foto:"img/X8deq1O.jpeg",
     desc:"Los Guane usaban narigueras de oro y tumbaga como símbolo de estatus y poder. Las élites portaban también pectorales, orejeras y collares elaborados. El oro era obtenido por intercambio con los Muiscas y los pueblos del norte.",
     det:"<span>Material:</span> Oro, tumbaga<br><span>Piezas:</span> Narigueras, orejeras, pectorales<br><span>Origen:</span> Intercambio regional"
   },
   {
     sala:3, lado:"R2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Adornos", titulo:"Collares y cuentas",
-    foto:"https://i.imgur.com/NZA6b8y.jpeg",
+    foto:"img/NZA6b8y.jpeg",
     desc:"Los collares Guane eran elaborados con cuentas de piedras semipreciosas, caracoles, huesos y cerámica. Tenían tanto función decorativa como ritual. Algunos collares eran amuletos de protección portados desde la infancia.",
     det:"<span>Materiales:</span> Piedra, caracol, hueso<br><span>Función:</span> Decorativa y ritual<br><span>Portadores:</span> Hombres, mujeres y niños"
   },
@@ -242,28 +238,28 @@ const PIEZAS = [
   {
     sala:4, lado:"L", forma:"cuadro", escala:[4.29,2.73],
     tag:"Ritual", titulo:"Las momias Guane",
-    foto:"https://i.imgur.com/F9tvEGS.jpeg",
+    foto:"img/F9tvEGS.jpeg",
     desc:"Los Guane momificaban a sus muertos en posición fetal, envueltos en tejidos de algodón y cuerdas de fique. Es una de las pocas culturas colombianas con esta práctica. Las momias eran depositadas en cuevas o nichos en la roca del Chicamocha.",
     det:"<span>Técnica:</span> Desecación natural + resinas<br><span>Posición:</span> Fetal<br><span>Conservación:</span> Museo de Santander"
   },
   {
     sala:4, lado:"L2", forma:"cuadro", escala:[4.29,2.73],
-    tag:"Ritual", titulo:"Deformacion Cranial ",
-    foto:"https://i.imgur.com/VSjgnYO.jpeg",
+    tag:"Ritual", titulo:"Deformacion Cranial",
+    foto:"img/VSjgnYO.jpeg",
     desc:"Los guanes deformaban intencionalmente sus cabezas como parte de una práctica cultural y simbólica, vinculada a la identidad, la estética y posiblemente al estatus social dentro de su comunidad.",
     det:"<span>Objetos:</span> Vasijas, tejidos, adornos<br><span>Alimentos:</span> Chicha, maíz<br><span>Creencia:</span> Viaje al más allá"
   },
   {
     sala:4, lado:"R", forma:"cuadro", escala:[4.29,2.73],
     tag:"Cerámica ritual", titulo:"Cerámica funeraria",
-    foto:"https://i.imgur.com/1cj9mzr.jpeg",
+    foto:"img/1cj9mzr.jpeg",
     desc:"La cerámica depositada en las tumbas Guane era especial: más elaborada, con mayor detalle decorativo y a veces de mayor tamaño que la doméstica. Algunas vasijas tenían formas antropomorfas o zoomorfas con significado ritual.",
     det:"<span>Formas:</span> Antropomorfas, zoomorfas<br><span>Decoración:</span> Más elaborada<br><span>Contexto:</span> Cuevas y tumbas"
   },
   {
     sala:4, lado:"R2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Ritual", titulo:"Sitios funerarios",
-    foto:"https://i.imgur.com/qc0ZWRO.jpeg",
+    foto:"img/qc0ZWRO.jpeg",
     desc:"Los Guane enterraban a sus muertos en cuevas naturales, nichos en la roca y en urnas cerámicas. Los sitios más conocidos están en Barichara, Cepitá y el Cañón del Chicamocha. Muchos sitios aún no han sido completamente estudiados.",
     det:"<span>Sitios:</span> Barichara, Cepitá<br><span>Tipos:</span> Cuevas, nichos, urnas<br><span>Estado:</span> Parcialmente estudiados"
   },
@@ -271,28 +267,28 @@ const PIEZAS = [
   {
     sala:5, lado:"L", forma:"cuadro", escala:[4.29,2.73],
     tag:"Pregunta", titulo:"¿Qué cultivaban los Guane?",
-    foto:"https://i.imgur.com/hO3kfsn.jpeg",
+    foto:"img/hO3kfsn.jpeg",
     desc:"Los Guane cultivaban principalmente maíz, yuca, fríjol y algodón. ¿Cuál de estos cultivos era el más importante para su economía? Recuerda lo que viste en la Sala 3.",
     det:"<span>Pista:</span> Era su principal producto de intercambio<br><span>Sala:</span> 3 — Economía Guane"
   },
   {
     sala:5, lado:"L2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Pregunta", titulo:"¿Cómo conservaban a sus muertos?",
-    foto:"https://i.imgur.com/0spcVVu.jpeg",
+    foto:"img/0spcVVu.jpeg",
     desc:"Los Guane tenían una práctica funeraria muy especial y única en Colombia. ¿Recuerdas cómo preparaban a sus difuntos? Vuelve a la Sala 5 si necesitas repasar.",
     det:"<span>Pista:</span> Posición fetal, envueltos en tela<br><span>Sala:</span> 5 — Cerámica y rituales fúnebres"
   },
   {
     sala:5, lado:"R", forma:"cuadro", escala:[4.29,2.73],
     tag:"Pregunta", titulo:"¿Qué significaban los tejidos?",
-    foto:"https://i.imgur.com/Q0nPfwB.jpeg",
+    foto:"img/Q0nPfwB.jpeg",
     desc:"Los tejidos Guane no eran solo ropa: eran un lenguaje visual. ¿Qué comunicaban los patrones geométricos de las mantas? Revisa la Sala 4 para encontrar la respuesta.",
     det:"<span>Pista:</span> Clan, estatus y cosmovisión<br><span>Sala:</span> 4 — Tejidos y vanidad"
   },
   {
     sala:5, lado:"R2", forma:"cuadro", escala:[4.29,2.73],
     tag:"Pregunta", titulo:"¿Para qué servía la múcura?",
-    foto:"https://i.imgur.com/RG6Hl3P.jpeg",
+    foto:"img/RG6Hl3P.jpeg",
     desc:"La múcura era la vasija más importante del hogar Guane. ¿Recuerdas para qué se usaba y por qué su forma era tan especial? La respuesta está en la Sala 2.",
     det:"<span>Pista:</span> Su porosidad mantenía el agua fresca<br><span>Sala:</span> 2 — Cerámica doméstica"
   },
@@ -301,11 +297,11 @@ const PIEZAS = [
 // ============================================================
 //  MOTOR 3D
 // ============================================================
-const SL = 22, RW = 10, RH = 5; // largo sala, ancho, alto
+const SL = 22, RW = 10, RH = 5;
 let scene, cam, ren, clk;
-let px = 0, pz = 1.5, yaw = 0; // posición y ángulo del jugador
+let px = 0, pz = 1.5, yaw = 0;
 let keys = {};
-let objs = [];   // meshes clicables
+let objs = [];
 let ray, mouse2;
 let panelAbierto = false;
 let salaActual = 0;
@@ -319,7 +315,6 @@ function iniciar() {
   construirNav();
 }
 
-// Detección móvil global — debe estar antes de init3D
 const esMovil = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
 function init3D() {
@@ -361,7 +356,6 @@ function init3D() {
   ren.domElement.addEventListener('mousemove', alMover);
 }
 
-// ── CONSTRUCCIÓN ──────────────────────────────────────────
 function mat(color, rough=0.88){
   return new THREE.MeshStandardMaterial({color, roughness:rough, metalness:0.04});
 }
@@ -375,16 +369,12 @@ function caja(w,h,d,m,x,y,z){
   b.position.set(x,y,z); scene.add(b); return b;
 }
 
-
 function construirMuseo(){
-  // ── Textura de madera generada por canvas ──
   const _wc = document.createElement('canvas');
   _wc.width = 512; _wc.height = 512;
   const _wx = _wc.getContext('2d');
-  // Fondo base café oscuro
   _wx.fillStyle = '#2A1206';
   _wx.fillRect(0, 0, 512, 512);
-  // Vetas de madera — líneas horizontales con variación
   const seed = (n) => Math.sin(n*127.1)*43758.5453 % 1;
   for(let i = 0; i < 120; i++){
     const y = (i / 120) * 512;
@@ -393,7 +383,6 @@ function construirMuseo(){
     _wx.lineWidth = 1 + Math.abs(seed(i+10)) * 3.5;
     _wx.beginPath();
     _wx.moveTo(0, y);
-    // Curva suave para simular veta natural
     let px2 = 0;
     while(px2 < 512){
       const wave = Math.sin(px2 * 0.04 + seed(i)*10) * 2.5;
@@ -402,7 +391,6 @@ function construirMuseo(){
     }
     _wx.stroke();
   }
-  // Nudos de madera
   for(let k = 0; k < 6; k++){
     const kx = 60 + Math.abs(seed(k*3))*400;
     const ky = 40 + Math.abs(seed(k*7))*430;
@@ -414,7 +402,6 @@ function construirMuseo(){
     _wx.fillStyle = grad;
     _wx.beginPath(); _wx.arc(kx, ky, kr, 0, Math.PI*2); _wx.fill();
   }
-  // Separaciones entre tablas
   for(let t = 0; t < 8; t++){
     const ty = (t/8)*512;
     _wx.strokeStyle = 'rgba(10,4,1,0.6)';
@@ -425,12 +412,9 @@ function construirMuseo(){
   woodTex.wrapS = THREE.RepeatWrapping;
   woodTex.wrapT = THREE.RepeatWrapping;
   woodTex.repeat.set(2, SALAS.length * 1.5);
-  const mSuelo = new THREE.MeshStandardMaterial({
-    map: woodTex, roughness: 0.75, metalness: 0.04
-  });
+  const mSuelo = new THREE.MeshStandardMaterial({map: woodTex, roughness: 0.75, metalness: 0.04});
   const mTecho = mat(0x2A1A0A);
-  const mPared = mat(0x8B5230);  // terracota/siena Guane
-
+  const mPared = mat(0x8B5230);
 
   for(let s=0;s<SALAS.length;s++){
     const oz = -s*SL;
@@ -440,13 +424,10 @@ function construirMuseo(){
     plano(RW, SL, mTecho, 0, RH,    oz-SL/2,  Math.PI/2, 0);
     plano(SL, RH, mPared, -RW/2, RH/2, oz-SL/2, 0,  Math.PI/2);
     plano(SL, RH, mPared,  RW/2, RH/2, oz-SL/2, 0, -Math.PI/2);
-    // pared frontal: con hueco si hay sala anterior (entrada), sólida si es la sala 1
     if(s > 0){
-      // pared de entrada con hueco
-      plano(1.9, RH, mPared, -4.05, RH/2, oz-SL+0.4, 0, 0);  // lateral izq
-      plano(1.9, RH, mPared,  4.05, RH/2, oz-SL+0.4, 0, 0);  // lateral der
-      plano(RW,  1.4, mPared,  0, RH-0.7, oz-SL+0.4, 0, 0);  // dintel superior
-      // jambas y marco dorado en pared de entrada
+      plano(1.9, RH, mPared, -4.05, RH/2, oz-SL+0.4, 0, 0);
+      plano(1.9, RH, mPared,  4.05, RH/2, oz-SL+0.4, 0, 0);
+      plano(RW,  1.4, mPared,  0, RH-0.7, oz-SL+0.4, 0, 0);
       const dmE = mat(0x150A04, 0.90);
       caja(1.9, RH, 0.26, dmE, -4.05, RH/2, oz-SL+0.53);
       caja(1.9, RH, 0.26, dmE,  4.05, RH/2, oz-SL+0.53);
@@ -456,7 +437,6 @@ function construirMuseo(){
       caja(0.09, RH-1.4, 0.3, gmE,  3.06, (RH-1.4)/2, oz-SL+0.56);
       caja(6.21, 0.09,   0.3, gmE,  0, RH-1.4, oz-SL+0.56);
     } else {
-      // sala 1: pared de entrada con hueco y marco igual a las demás
       plano(1.9, RH, mPared, -4.05, RH/2, oz-SL+0.4, 0, 0);
       plano(1.9, RH, mPared,  4.05, RH/2, oz-SL+0.4, 0, 0);
       plano(RW,  1.4, mPared,  0, RH-0.7, oz-SL+0.4, 0, 0);
@@ -470,44 +450,32 @@ function construirMuseo(){
       caja(6.21, 0.09,   0.3, gm0,  0, RH-1.4, oz-SL+0.56);
     }
 
-    // franjas doradas en suelo
     [-RW/2+0.25, RW/2-0.25].forEach(sx=>{
       const g=new THREE.PlaneGeometry(0.07,SL);
       const m2=new THREE.MeshStandardMaterial({color:0xD4A017,roughness:0.3,metalness:0.7,emissive:0xD4A017,emissiveIntensity:0.07});
       const f=new THREE.Mesh(g,m2); f.rotation.x=-Math.PI/2; f.position.set(sx,0.015,oz-SL/2); scene.add(f);
     });
 
-
-
     labelSala(SALAS[s].nombre, `SALA ${s+1}`, 0, 3.6, oz-SL+0.45);
 
-    // PUERTA — jambas y marcos en AMBOS lados del umbral
     if(s < SALAS.length-1){
       const dm = mat(0x150A04, 0.90);
       const gm = new THREE.MeshStandardMaterial({color:0xD4A017,roughness:0.25,metalness:0.75});
-
-      // lado salida (oz+0.13) — cara que mira hacia la sala actual
       caja(1.9, RH, 0.26, dm, -4.05, RH/2, oz+0.13);
       caja(1.9, RH, 0.26, dm,  4.05, RH/2, oz+0.13);
       caja(RW,  1.4, 0.26, dm, 0, RH-0.7, oz+0.13);
       caja(0.09, RH-1.4, 0.3, gm, -3.06, (RH-1.4)/2, oz+0.13);
       caja(0.09, RH-1.4, 0.3, gm,  3.06, (RH-1.4)/2, oz+0.13);
       caja(6.21, 0.09,   0.3, gm,  0, RH-1.4, oz+0.13);
-
-      // lado entrada (oz-0.13) — cara que mira hacia la sala siguiente
       caja(1.9, RH, 0.26, dm, -4.05, RH/2, oz-0.13);
       caja(1.9, RH, 0.26, dm,  4.05, RH/2, oz-0.13);
       caja(RW,  1.4, 0.26, dm, 0, RH-0.7, oz-0.13);
       caja(0.09, RH-1.4, 0.3, gm, -3.06, (RH-1.4)/2, oz-0.13);
       caja(0.09, RH-1.4, 0.3, gm,  3.06, (RH-1.4)/2, oz-0.13);
       caja(6.21, 0.09,   0.3, gm,  0, RH-1.4, oz-0.13);
-
-      // alfombra umbral
       const ag=new THREE.PlaneGeometry(5.8,0.9);
       const am=new THREE.MeshStandardMaterial({color:0xC56A3D,roughness:0.9,emissive:0xC56A3D,emissiveIntensity:0.05});
       const al=new THREE.Mesh(ag,am); al.rotation.x=-Math.PI/2; al.position.set(0,0.012,oz-0.2); scene.add(al);
-
-      // letrero próxima sala
       labelPuerta(`→ ${SALAS[s+1].nombre}`, 0, RH-0.88, oz+0.16);
     }
   }
@@ -535,15 +503,11 @@ function labelPuerta(txt, x, y, z){
 function crearPlaceholder(data){
   const c=document.createElement('canvas'); c.width=512; c.height=340;
   const ctx=c.getContext('2d');
-  // Fondo suave
   ctx.fillStyle='#E8D8B8'; ctx.fillRect(0,0,512,340);
   ctx.fillStyle='rgba(90,62,43,.08)'; ctx.fillRect(16,16,480,308);
   ctx.strokeStyle='rgba(212,160,23,.45)'; ctx.lineWidth=2; ctx.strokeRect(16,16,480,308);
-  // Icono central
   ctx.fillStyle='rgba(212,160,23,.28)'; ctx.font='56px Georgia'; ctx.textAlign='center'; ctx.fillText('◆',256,128);
-  // Tag
   ctx.fillStyle='#C56A3D'; ctx.font='bold 16px Georgia'; ctx.fillText(data.tag.toUpperCase(),256,186);
-  // Titulo partido en lineas
   ctx.fillStyle='#5A3E2B'; ctx.font='17px Georgia';
   const words=data.titulo.split(' '); let line='',lines=[];
   words.forEach(w=>{ const t=line+w+' '; if(ctx.measureText(t).width>430&&line){lines.push(line.trim());line=w+' ';}else line=t; });
@@ -560,31 +524,25 @@ function agregarPieza(data, idx){
     const [sw,sh] = data.escala;
     const esIzq = data.lado==='L' || data.lado==='L2';
     const esSegundo = data.lado==='L2' || data.lado==='R2';
-    // Posición pegada a la pared — segundo cuadro va más al fondo
     const wx = esIzq ? -RW/2+0.04 : RW/2-0.04;
     const wz = esSegundo ? oz-SL/2-4.5 : oz-SL/2+4.5;
     const ry = esIzq ? Math.PI/2 : -Math.PI/2;
 
-    // ── Marco de madera (fondo, ligeramente más grande) ──
     const gm = new THREE.MeshStandardMaterial({color:0xD4A017,roughness:0.3,metalness:0.65});
     const marco = new THREE.Mesh(new THREE.PlaneGeometry(sw+0.22, sh+0.22), gm);
     marco.position.set(wx, 2.3, wz);
     marco.rotation.y = ry;
     scene.add(marco);
 
-    // ── Lienzo: foto o placeholder, encima del marco ──
     let canvasTex;
     if(data.foto && data.foto.trim()!==''){
-      // Mientras carga, placeholder provisional
       canvasTex = crearPlaceholder(data);
-      // Cargar imagen real — reemplaza el placeholder cuando llega
       const loader = new THREE.TextureLoader();
-      loader.crossOrigin = 'anonymous';
       loader.load(
         data.foto,
         (tex) => { lienzo.material.map = tex; lienzo.material.needsUpdate = true; },
         undefined,
-        () => { /* fallo silencioso, queda el placeholder */ }
+        () => { /* fallo silencioso */ }
       );
     } else {
       canvasTex = crearPlaceholder(data);
@@ -594,13 +552,11 @@ function agregarPieza(data, idx){
       new THREE.PlaneGeometry(sw, sh),
       new THREE.MeshBasicMaterial({map: canvasTex})
     );
-    // Colocar lienzo 2cm delante del marco (hacia el interior de la sala)
     lienzo.position.set(esIzq ? wx+0.02 : wx-0.02, 2.3, wz);
     lienzo.rotation.y = ry;
     scene.add(lienzo);
-    mesh = lienzo; // el mesh clicable es el lienzo
+    mesh = lienzo;
 
-    // Spot sobre el cuadro (solo PC)
     if(!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)){
       const sp=new THREE.SpotLight(0xFFF5DC,1.1,7,Math.PI/6.5,0.45);
       const spx = esIzq ? wx+1.5 : wx-1.5;
@@ -609,7 +565,6 @@ function agregarPieza(data, idx){
     }
 
   } else {
-    // ── Objeto central según la sala ─────────────────────────
     const r = data.escala[0];
     const mPed = new THREE.MeshStandardMaterial({color:0x3A2010, roughness:0.95});
     const zPos = oz-SL/2+4.5;
@@ -626,7 +581,6 @@ function agregarPieza(data, idx){
       }
     }
 
-    // Textura terracota reutilizable
     function texTerracota(){
       const vc=document.createElement('canvas'); vc.width=256; vc.height=256;
       const vx=vc.getContext('2d');
@@ -645,7 +599,6 @@ function agregarPieza(data, idx){
     }
 
     if(data.sala === 1){
-      // ── SALA 2: Múcura doble bulbo ──
       const pts=[];
       [[0,.0],[.12,.03],[.30,.10],[.52,.28],[.66,.52],[.70,.78],[.66,1.02],[.50,1.20],
        [.36,1.30],[.38,1.42],[.50,1.56],[.58,1.72],[.54,1.88],[.40,2.00],[.28,2.08],
@@ -656,7 +609,6 @@ function agregarPieza(data, idx){
       mesh.position.set(0,0,zPos);
       pedestal(zPos);
     } else {
-      // Sin objeto
       mesh = new THREE.Mesh(new THREE.SphereGeometry(0.001,4,4),
         new THREE.MeshBasicMaterial({visible:false}));
       mesh.position.set(0,0,zPos);
@@ -664,8 +616,7 @@ function agregarPieza(data, idx){
 
     scene.add(mesh);
     if(data.sala !== 5) spotLight(zPos);
-
-  } // fin else objeto central
+  }
 
   mesh.userData={es:'pieza', data};
   objs.push(mesh);
@@ -704,17 +655,13 @@ function ponerLuces(){
   }
 }
 
-// ── MOVIMIENTO CORREGIDO ───────────────────────────────────
-// La clave: NO usar camera.rotation directamente.
-// Usamos un Quaternion construido desde el eje Y para rotar.
-// ── JOYSTICK STATE ─────────────────────────────────────────
 const joyState = { lx:0, ly:0, rx:0, ry:0 };
 
 function crearJoystick(baseId, knobId, stateX, stateY){
   const base = document.getElementById(baseId);
   const knob = document.getElementById(knobId);
-  const R = 33; // radio máximo del knob
-  let active = false, tid = null, ox=0, oy=0;
+  const R = 33;
+  let active = false, tid = null;
 
   function getCenter(){
     const r = base.getBoundingClientRect();
@@ -757,7 +704,6 @@ function crearJoystick(baseId, knobId, stateX, stateY){
   });
   base.addEventListener('touchcancel', reset);
 
-  // soporte mouse (PC)
   base.addEventListener('mousedown', e=>{
     active=true;
     const {cx,cy}=getCenter();
@@ -775,7 +721,6 @@ function entradaControles(){
     if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code)) e.preventDefault();
   });
   document.addEventListener('keyup', e=>keys[e.code]=false);
-
   crearJoystick('joyL-base','joyL-knob','lx','ly');
   crearJoystick('joyR-base','joyR-knob','rx','ry');
 }
@@ -791,46 +736,27 @@ function bucle(){
 
 function mover(dt){
   const VEL=4.5, GIRO=1.9;
-
-  // Teclado + joystick derecho giran
   if(keys['ArrowLeft'] ||keys['KeyA']) yaw+=GIRO*dt;
   if(keys['ArrowRight']||keys['KeyD']) yaw-=GIRO*dt;
   yaw -= joyState.rx * GIRO * dt;
-
-  // Vector de avance basado en yaw
   const sinY=Math.sin(yaw), cosY=Math.cos(yaw);
-
   if(keys['ArrowUp']  ||keys['KeyW']){ px+=sinY*VEL*dt; pz-=cosY*VEL*dt; }
   if(keys['ArrowDown']||keys['KeyS']){ px-=sinY*VEL*dt; pz+=cosY*VEL*dt; }
-
-  // Joystick izquierdo mueve
   px += (sinY*(-joyState.ly) + cosY*joyState.lx) * VEL * dt;
   pz -= (cosY*(-joyState.ly) - sinY*joyState.lx) * VEL * dt;
-
-  // Límites X
   px=Math.max(-RW/2+0.55, Math.min(RW/2-0.55, px));
-  // Límites Z
   pz=Math.max(-(SALAS.length*SL)+1.5, Math.min(2.4, pz));
-
-  // Puertas: centrar al jugador suavemente cuando se acerca, bloquear jambas
   for(let s=0;s<SALAS.length-1;s++){
     const dz = -s*SL;
-    // Zona de influencia: 5 unidades antes de la puerta
     if(pz > dz-5 && pz < dz+1){
-      // Centrar X gradualmente hacia 0 para guiar por el hueco
       px += (0 - px) * 0.1;
-      // Si aun asi esta fuera del hueco (pegado a jamba), no dejar pasar
       if(Math.abs(px) > 2.9 && pz > dz-0.4 && pz < dz+0.4){
         pz = pz < dz ? dz-0.41 : dz+0.41;
       }
     }
   }
-
-  // Aplicar a cámara con Quaternion (correcto en Three.js)
   cam.position.set(px, 1.7, pz);
   cam.quaternion.setFromAxisAngle(new THREE.Vector3(0,1,0), yaw);
-
-  // Sala actual
   const ns=Math.min(SALAS.length-1, Math.max(0, Math.floor(-pz/SL)));
   if(ns!==salaActual){ salaActual=ns; actualizarSalaUI(); }
   document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('on',i===salaActual));
@@ -852,7 +778,6 @@ function actualizarSalaUI(){
   document.getElementById('sname').textContent=SALAS[salaActual].nombre;
 }
 
-// ── CLIC / HOVER ───────────────────────────────────────────
 function alClick(e){
   if(panelAbierto) return;
   mouse2.x=(e.clientX/innerWidth)*2-1;
@@ -883,7 +808,6 @@ function abrirPanel(d){
   const img=document.getElementById('pimg');
   if(d.foto && d.foto.trim()!==''){
     img.src=d.foto;
-    img.crossOrigin='anonymous';
     img.style.display='block';
   } else {
     img.style.display='none';
@@ -897,7 +821,6 @@ function cerrarPanel(){
   panelAbierto=false;
 }
 
-// ── MINIMAPA ───────────────────────────────────────────────
 function dibujarMM(){
   const c=document.getElementById('mc');
   const ctx=c.getContext('2d');
@@ -918,7 +841,6 @@ function dibujarMM(){
   ctx.lineTo(mx+Math.sin(yaw)*8, mz-Math.cos(yaw)*8); ctx.stroke();
 }
 
-// ── NAVEGACIÓN LATERAL ─────────────────────────────────────
 function construirNav(){
   const nav=document.getElementById('salanav');
   SALAS.forEach((s,i)=>{
@@ -927,6 +849,17 @@ function construirNav(){
     d.innerHTML=`<div class="dl">${s.nombre}</div>`;
     d.onclick=()=>{ px=0; pz=-i*SL+1.5; yaw=0; salaActual=i; actualizarSalaUI(); };
     nav.appendChild(d);
+  });
+}
+
+// ============================================================
+//  SERVICE WORKER
+// ============================================================
+if('serviceWorker' in navigator){
+  window.addEventListener('load', ()=>{
+    navigator.serviceWorker.register('sw.js')
+      .then(()=> console.log('SW registrado'))
+      .catch(e=> console.log('SW error:', e));
   });
 }
 </script>
