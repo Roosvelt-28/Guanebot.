@@ -1,0 +1,15 @@
+{
+  "name": "Museo Virtual — Arqueología Guane",
+  "short_name": "Guanebot",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#1a0e05",
+  "theme_color": "#5A3E2B",
+  "description": "Museo virtual 3D del pueblo indígena Guane de Santander, Colombia.",
+  "lang": "es",
+  "icons": [
+    { "src": "img/0spcVVu.jpeg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any maskable" }
+  ]
+}
