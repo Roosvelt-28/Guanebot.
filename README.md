@@ -1,0 +1,2 @@
+# Guanebot
+Guanebot es un museo virtual e interactivo sobre patrimonio arqueológico precolombino, desarrollado por estudiantes de un grupo de robótica. Nació enfocado en los Guane y busca preservar la historia y la cultura de nuestra región. El proyecto está en expansión: además de la sala Guane, ya incluye una sala dedicada a la cultura Muisca, y la idea es seguir sumando culturas para combatir el desconocimiento y mantener viva su memoria.
