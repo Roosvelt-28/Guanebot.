@@ -77,28 +77,28 @@ export const piezasCalima = [
     {
       sala: 2, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Pectorales de gran formato",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/G0sBAGa.jpeg",
       desc: "Los orfebres del período Yotoco crearon algunos de los pectorales de oro más grandes de la América precolombina, láminas martilladas con diseños geométricos que cubrían buena parte del pecho de sus portadores.",
       det: "<span>Objeto:</span> pectorales de gran formato<br><span>Técnica:</span> laminado y martillado"
     },
     {
       sala: 2, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Máscaras funerarias de oro",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/Wuj9Vkw.jpeg",
       desc: "Entre las piezas más impactantes de la orfebrería calima están las máscaras funerarias de oro laminado, colocadas sobre el rostro de los difuntos de mayor rango como parte del ritual de entierro.",
       det: "<span>Objeto:</span> máscara funeraria<br><span>Material:</span> oro laminado<br><span>Uso:</span> ritual funerario"
     },
     {
       sala: 2, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Narigueras de formas geométricas",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/Wuj9Vkw.jpeg",
       desc: "Las narigueras calima Yotoco destacan por sus formas geométricas audaces, en ocasiones de gran tamaño, que combinaban valor estético con la exhibición de estatus social de quien las portaba.",
       det: "<span>Objeto:</span> narigueras<br><span>Estilo:</span> formas geométricas de gran tamaño"
     },
     {
       sala: 2, lado: "R2", forma: "esfera", escala: [0.65],
       tag: "Orfebrería", titulo: "Técnica del laminado y repujado",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/41AszTx.jpeg",
       desc: "A diferencia de otras culturas que preferían la cera perdida, los orfebres calima se especializaron en laminar el oro en hojas muy delgadas y trabajarlas con la técnica del repujado, golpeando desde el reverso para crear relieve.",
       det: "<span>Técnica principal:</span> laminado y repujado<br><span>Resultado:</span> piezas ligeras de gran superficie"
     },
