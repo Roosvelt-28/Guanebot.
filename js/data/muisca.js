@@ -17,28 +17,28 @@ export const piezasMuisca = [
     {
       sala: 0, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "¿Quiénes eran los Muiscas?",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/qsFXow7.jpeg",
       desc: "Los Muiscas fueron un pueblo de habla chibcha que habitó el altiplano cundiboyacense y el sur de Santander. Hacia 1500 su economía se basaba en la agricultura, la explotación de sal y esmeraldas, y la producción de cerámica y orfebrería.",
       det: "<span>Período:</span> Siglo VI–XVI d.C.<br><span>Territorio:</span> Cundinamarca, Boyacá, sur de Santander<br><span>Lengua:</span> Muysccubun (familia chibcha)"
     },
     {
       sala: 0, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "Los Guane, primos de los Muiscas",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/JRtxVAl.jpeg",
       desc: "Los cronistas describen a los Guane como una confederación de la gran familia muisca, asentada en las hoyas de los ríos Suárez y Chicamocha y la mesa de Lérida, en Santander. Compartían raíz chibcha con Bacatá, Hunza, Tundama e Iraca.",
       det: "<span>Confederaciones hermanas:</span> Bacatá, Hunza, Tundama, Iraca, Guane<br><span>Familia lingüística:</span> Chibcha"
     },
     {
       sala: 0, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Sociedad", titulo: "Organización política",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/1CpSJJd.jpeg",
       desc: "Los Muiscas se organizaban en cacicazgos gobernados por un Zipa (con sede en Bacatá, hoy Bogotá) o un Zaque (con sede en Hunza, hoy Tunja). Ambos eran considerados descendientes del dios Sol, Sué, y compartían relaciones políticas y comerciales, aunque con rivalidades por el territorio.",
       det: "<span>Zipazgo:</span> Bacatá (Bogotá)<br><span>Zacazgo:</span> Hunza (Tunja)<br><span>Sucesión:</span> Matrilineal"
     },
     {
       sala: 0, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Sociedad", titulo: "Jerarquía social",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/AHsi722.jpeg",
       desc: "Debajo del Zipa o Zaque estaban los uzaques (nobles con poder militar), los sacerdotes o chyquy, los güechas (guerreros) y los artesanos, agricultores y comerciantes. La lengua muisca dejó de hablarse tras prohibirse en 1770; hoy solo sobrevive una variante emparentada entre los U'wa.",
       det: "<span>Jerarquía:</span> Zipa/Zaque → Uzaque → Chyquy → Güecha → Pueblo<br><span>Lengua viva relacionada:</span> U'wa (Tunebo)"
     },
