@@ -17,28 +17,28 @@ export const piezasCalima = [
     {
       sala: 0, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "¿Quiénes eran los Calima?",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/tzvraEF.jpeg",
       desc: "Calima es el nombre que reciben las culturas prehispánicas que habitaron la cuenca del río Calima, en el suroccidente colombiano, hoy departamento del Valle del Cauca, desde hace más de 5.000 años hasta la llegada de los españoles.",
       det: "<span>Territorio:</span> cuenca del río Calima<br><span>Departamento actual:</span> Valle del Cauca<br><span>Antigüedad:</span> más de 5.000 años"
     },
     {
       sala: 0, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "Una región, varias culturas",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/FGrR5rq.jpeg",
       desc: "'Calima' no designa un solo pueblo sino una secuencia de culturas que se sucedieron en la misma región a lo largo de milenios, cada una con estilos propios de cerámica y orfebrería, estudiados por la arqueología.",
       det: "<span>Nombre:</span> designación regional, no étnica<br><span>Uso:</span> secuencia de culturas arqueológicas"
     },
     {
       sala: 0, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Sociedad", titulo: "Cacicazgos del suroccidente",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/EHWpy9U.jpeg",
       desc: "Las comunidades Calima se organizaban en cacicazgos con líderes que concentraban poder político y religioso, reflejado en el acceso privilegiado a los objetos de oro más elaborados hallados en sus tumbas.",
       det: "<span>Organización:</span> cacicazgos<br><span>Evidencia:</span> orfebrería en tumbas de élite"
     },
     {
       sala: 0, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "El Museo del Oro Calima",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/N8UGw9B.jpeg",
       desc: "En Cali, el Museo del Oro Calima del Banco de la República reúne piezas de orfebrería y cerámica de las distintas culturas de la región, permitiendo comprender su larga secuencia histórica.",
       det: "<span>Sede:</span> Cali, Valle del Cauca<br><span>Colección:</span> orfebrería y cerámica regional"
     },
