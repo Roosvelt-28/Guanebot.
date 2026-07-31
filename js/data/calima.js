@@ -138,28 +138,28 @@ export const piezasCalima = [
     {
       sala: 4, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Territorio", titulo: "El valle del río Calima",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/Nnu2P4J.jpeg",
       desc: "El río Calima, afluente del río San Juan en el Pacífico colombiano, da nombre a la región y proporcionó a sus habitantes tierras fértiles, agua abundante y acceso a distintos pisos térmicos.",
       det: "<span>Río:</span> Calima (cuenca del San Juan)<br><span>Recursos:</span> tierras fértiles, agua, variedad climática"
     },
     {
       sala: 4, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Vida cotidiana", titulo: "Agricultura de maíz y frijol",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/Guvslvf.jpeg",
       desc: "La base alimentaria de las comunidades Calima era el cultivo de maíz, frijol y yuca, complementado con la caza y la pesca en los ríos y quebradas de la región.",
       det: "<span>Cultivos principales:</span> maíz, frijol, yuca<br><span>Complemento:</span> caza y pesca"
     },
     {
       sala: 4, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Vida cotidiana", titulo: "Comercio con el Pacífico y los Andes",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/FTzzgTl.jpeg",
       desc: "Gracias a su posición entre la costa Pacífica y la cordillera Occidental, las comunidades Calima participaron en redes de intercambio que conectaban productos marinos, orfebrería y bienes agrícolas de distintas regiones.",
       det: "<span>Posición:</span> entre Pacífico y cordillera Occidental<br><span>Rol:</span> nodo de intercambio regional"
     },
     {
       sala: 4, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Legado", titulo: "Calima en el Valle del Cauca de hoy",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/8OqjVU2.jpeg",
       desc: "El nombre Calima permanece en la geografía y la identidad del Valle del Cauca —en el río, el municipio de Calima-Darién y el embalse homónimo— como recordatorio de una de las tradiciones orfebres más importantes de Colombia.",
       det: "<span>Huella actual:</span> río, municipio y embalse Calima<br><span>Legado:</span> tradición orfebre reconocida"
     },
