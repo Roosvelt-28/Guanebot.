@@ -47,28 +47,28 @@ export const piezasMuisca = [
     {
       sala: 1, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Economía", titulo: "Agricultura en pisos térmicos",
-      foto: "https://i.imgur.com/g5eAmLg.jpeg",
+      foto: "https://i.imgur.com/0xce2s0.jpeg",
       desc: "Cultivaban maíz, papa y quinua en parcelas repartidas por distintos climas del altiplano. Mantenían alojamiento temporal en cada zona para aprovechar, en momentos regulados del año, los productos propios de tierras frías y templadas.",
       det: "<span>Cultivos:</span> Maíz, papa, quinua<br><span>Técnica:</span> Uso escalonado de pisos térmicos"
     },
     {
       sala: 1, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Economía", titulo: "La sal, riqueza del altiplano",
-      foto: "https://i.imgur.com/mLr3HuG.jpeg",
+      foto: "https://i.imgur.com/gbxFmxL.jpeg",
       desc: "La explotación de sal en minas como las de Zipaquirá y Nemocón fue una de las bases económicas muiscas. La sal se convirtió en un producto de intercambio tan valioso que llegaba, por trueque, hasta territorios lejanos.",
       det: "<span>Sitios:</span> Zipaquirá, Nemocón<br><span>Uso:</span> Consumo y moneda de intercambio"
     },
     {
       sala: 1, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Economía", titulo: "Esmeraldas",
-      foto: "https://i.imgur.com/PDEJS8b.jpeg",
+      foto: "https://i.imgur.com/vx5EltT.jpeg",
       desc: "El territorio muisca incluía yacimientos de esmeraldas, una de las piedras más codiciadas de la región. Se usaban como ofrenda ritual y como bien de intercambio con pueblos vecinos.",
       det: "<span>Recurso:</span> Esmeraldas<br><span>Uso:</span> Ofrenda ritual y comercio"
     },
     {
       sala: 1, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Economía", titulo: "Trueque: sal y esmeraldas por oro",
-      foto: "https://i.imgur.com/VESL9DP.jpeg",
+      foto: "https://i.imgur.com/2Qqd3aV.jpeg",
       desc: "En el territorio muisca no había yacimientos de oro, así que lo obtenían por trueque con pueblos vecinos, cambiando esmeraldas, mantas de algodón y sal. Esa red de intercambio los convirtió en hábiles metalúrgicos aunque el metal no fuera propio.",
       det: "<span>Exportaban:</span> Sal, esmeraldas, mantas de algodón<br><span>Importaban:</span> Oro<br><span>Sistema:</span> Trueque"
     },
