@@ -47,28 +47,28 @@ export const piezasCalima = [
     {
       sala: 1, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arqueología", titulo: "Ilama, el período más antiguo",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/H84BUvF.jpeg",
       desc: "El período Ilama, entre aproximadamente 1600 a.C. y 100 d.C., corresponde a las primeras comunidades agrícolas y alfareras de la región, con una cerámica sencilla pero ya con presencia de figuras humanas.",
       det: "<span>Período:</span> Ilama (~1600 a.C.–100 d.C.)<br><span>Rasgo:</span> primeras comunidades agrícolas"
     },
     {
       sala: 1, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arqueología", titulo: "Yotoco, la orfebrería clásica",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/vwBWxZA.jpeg",
       desc: "El período Yotoco (100 a.C.–1200 d.C.) es el más conocido por su orfebrería: piezas grandes, brillantes y de formas geométricas audaces, entre las más admiradas del arte precolombino colombiano.",
       det: "<span>Período:</span> Yotoco (100 a.C.–1200 d.C.)<br><span>Rasgo:</span> orfebrería monumental y geométrica"
     },
     {
       sala: 1, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arqueología", titulo: "Sonso, el período tardío",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/heCheWJ.jpeg",
       desc: "El período Sonso (1200–1600 d.C.) corresponde a los grupos indígenas que los españoles encontraron a su llegada. Su orfebrería es más sencilla que la Yotoco, pero conservan una rica tradición cerámica y textil.",
       det: "<span>Período:</span> Sonso (1200–1600 d.C.)<br><span>Contacto:</span> presente a la llegada española"
     },
     {
       sala: 1, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arqueología", titulo: "Una secuencia de casi 3.000 años",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/sPiNgOB.jpeg",
       desc: "Entre Ilama, Yotoco y Sonso, la región Calima ofrece una de las secuencias culturales mejor documentadas de Colombia, mostrando cómo evolucionaron las técnicas de cerámica y orfebrería a lo largo de casi 3.000 años.",
       det: "<span>Secuencia:</span> Ilama → Yotoco → Sonso<br><span>Duración total:</span> cerca de 3.000 años"
     },
