@@ -77,28 +77,28 @@ export const piezasMuisca = [
     {
       sala: 2, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Los tunjos",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/cllehG6.jpeg",
       desc: "Los tunjos eran pequeñas figuras votivas de oro, plata o cobre, fundidas en una sola pieza con la técnica de la cera perdida. Representaban personas, animales o escenas, y se enterraban o depositaban en lagunas como ofrenda a los dioses.",
       det: "<span>Técnica:</span> Cera perdida<br><span>Materiales:</span> Oro, plata, cobre (tumbaga)<br><span>Función:</span> Ofrenda votiva"
     },
     {
       sala: 2, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Ritual", titulo: "La ceremonia de Guatavita",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/K3hKIiQ.jpeg",
       desc: "En la laguna de Guatavita se celebraba la investidura del nuevo cacique: cubría su cuerpo con polvo de oro y, junto a su pueblo, arrojaba oro y esmeraldas a las aguas como ofrenda. Este ritual dio origen a la leyenda española de El Dorado.",
       det: "<span>Lugar:</span> Laguna de Guatavita<br><span>Ritual:</span> Investidura del cacique<br><span>Vigente hasta:</span> 1536"
     },
     {
       sala: 2, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Fundición y tumbaga",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/48v9SIm.jpeg",
       desc: "Los orfebres muiscas aleaban oro con cobre para obtener tumbaga, un metal de tono bronceado más fácil de fundir. Con matrices de piedra podían producir piezas idénticas en serie, una técnica avanzada para la época.",
       det: "<span>Aleación:</span> Oro + cobre (tumbaga)<br><span>Herramienta:</span> Matrices de piedra"
     },
     {
       sala: 2, lado: "R2", forma: "esfera", escala: [0.65],
       tag: "Orfebrería", titulo: "La Balsa Muisca",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/7Bq043F.jpeg",
       desc: "Hallada en 1969 y hoy exhibida en el Museo del Oro de Bogotá, la Balsa Muisca representa la ceremonia de El Dorado: el cacique en el centro, rodeado de remeros y acompañantes, toda la escena fundida en una sola pieza de oro sin soldaduras.",
       det: "<span>Hallazgo:</span> 1969, laguna de Siecha/Guatavita (región)<br><span>Museo:</span> Museo del Oro, Bogotá<br><span>Técnica:</span> Cera perdida, pieza única"
     },
