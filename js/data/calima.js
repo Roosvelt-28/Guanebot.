@@ -91,12 +91,13 @@ export const piezasCalima = [
     {
       sala: 2, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Narigueras de formas geométricas",
-      foto: "https://i.imgur.com/Wuj9Vkw.jpeg",
+      foto "https://i.imgur.com/0A4kfO7.jpeg",
       desc: "Las narigueras calima Yotoco destacan por sus formas geométricas audaces, en ocasiones de gran tamaño, que combinaban valor estético con la exhibición de estatus social de quien las portaba.",
-      det: "<span>Objeto:</span> narigueras<br><span>Estilo:</span> formas geométricas de gran tamaño"
+      det: "<span>Objeto:</span> narigueras<br><span>Estilo:</span> formas geométricas de gran tamaño" },
     },
     {
-      sala: 2, lado: "R2", forma: "esfera", escala: [0.65],
+          
+      sala: 2, lado: "R2", forma: "esfera", escala: [0.65]
       tag: "Orfebrería", titulo: "Técnica del laminado y repujado",
       foto: "https://i.imgur.com/41AszTx.jpeg",
       desc: "A diferencia de otras culturas que preferían la cera perdida, los orfebres calima se especializaron en laminar el oro en hojas muy delgadas y trabajarlas con la técnica del repujado, golpeando desde el reverso para crear relieve.",
