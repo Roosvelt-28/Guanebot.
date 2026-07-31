@@ -137,28 +137,28 @@ export const piezasMuisca = [
     {
       sala: 4, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Mitología", titulo: "Chiminigagua, el creador",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/MirLNAl.jpeg",
       desc: "Chiminigagua era el ser supremo de la religión muisca: un dios sin cuerpo, nunca invocado directamente, que gobernaba a través de dioses menores como Sué (el Sol), Chía (la Luna) y Chaquén (la fertilidad).",
       det: "<span>Rol:</span> Dios creador supremo<br><span>Hijos/dioses menores:</span> Sué, Chía, Chaquén"
     },
     {
       sala: 4, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Mitología", titulo: "El Salto del Tequendama",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/uUC3HaD.jpeg",
       desc: "La tradición cuenta que Chibchacum castigó a los Muiscas inundando la sabana, y que Bochica abrió una salida para las aguas golpeando una roca con su bastón de oro, creando el Salto del Tequendama.",
       det: "<span>Dios castigador:</span> Chibchacum (lluvia y trueno)<br><span>Dios salvador:</span> Bochica"
     },
     {
       sala: 4, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Religión", titulo: "Casas ceremoniales",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/scODLlU.jpeg",
       desc: "Los Muiscas distinguían varios tipos de casas ceremoniales: el cusmuy, ligado a la Luna; el chunsua, ligado al Sol; y la cuca, donde se formaban los futuros sacerdotes chyquy y a veces también las autoridades civiles.",
       det: "<span>Cusmuy:</span> Casa de la Luna<br><span>Chunsua:</span> Casa del Sol<br><span>Cuca:</span> Escuela de sacerdotes"
     },
     {
       sala: 4, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Religión", titulo: "Los chyquy, sacerdotes",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/cewbvyr.jpeg",
       desc: "Los chyquy eran los sacerdotes muiscas, guardianes de los santuarios donde se guardaban estatuas de dioses y antepasados vestidas con mantas de algodón pintadas. Portaban coronas de oro en forma de mitra en las ceremonias.",
       det: "<span>Rol:</span> Sacerdotes y guardianes de santuarios<br><span>Insignia:</span> Coronas de oro en forma de mitra"
     },
