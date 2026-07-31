@@ -108,28 +108,28 @@ export const piezasCalima = [
     {
       sala: 3, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cerámica", titulo: "Figuras antropomorfas Ilama",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/og8VghB.jpeg",
       desc: "La cerámica del período Ilama incluye figuras humanas de cuerpo sencillo y cabeza destacada, muchas veces asociadas a contextos funerarios y usadas como ofrendas para acompañar a los muertos.",
       det: "<span>Período:</span> Ilama<br><span>Tipo:</span> figuras antropomorfas funerarias"
     },
     {
       sala: 3, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cerámica", titulo: "Vasijas decoradas Sonso",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/CcgGFUq.jpeg",
       desc: "En el período Sonso, la cerámica se enriqueció con decoraciones pintadas en rojo y negro sobre fondo crema, con motivos geométricos que reflejan una tradición artesanal consolidada.",
       det: "<span>Período:</span> Sonso<br><span>Decoración:</span> pintura roja y negra sobre crema"
     },
     {
       sala: 3, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cerámica", titulo: "Recipientes para chicha",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/DT8Y4it.jpeg",
       desc: "Grandes vasijas de cerámica servían para preparar y almacenar chicha de maíz, bebida central en las celebraciones y rituales de las comunidades Calima a lo largo de sus distintos períodos.",
       det: "<span>Uso:</span> preparación y almacenamiento de chicha<br><span>Materia prima:</span> maíz fermentado"
     },
     {
       sala: 3, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cerámica", titulo: "Ofrendas funerarias",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/qAlSNwL.jpeg",
       desc: "Las tumbas Calima solían incluir conjuntos de vasijas de cerámica junto a piezas de orfebrería, evidencia de la importancia que estas comunidades daban al acompañamiento material de sus difuntos en el más allá.",
       det: "<span>Contexto:</span> tumbas<br><span>Ofrendas:</span> cerámica y orfebrería combinadas"
     },
