@@ -107,28 +107,28 @@ export const piezasMuisca = [
     {
       sala: 3, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Textiles", titulo: "Mantas de algodón",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/fiTlgm0.jpeg",
       desc: "Las mantas muiscas eran finas y de colores variados, tejidas con motivos geométricos de posible carácter simbólico. Se regalaban en cada acontecimiento importante de la vida, y las mantas rojas se usaban como señal de luto.",
       det: "<span>Material:</span> Algodón (intercambiado por trueque)<br><span>Uso especial:</span> Manta roja = luto"
     },
     {
       sala: 3, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Mitología", titulo: "Bochica, el maestro tejedor",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/FplqOkv.jpeg",
       desc: "Según el mito, antes de Bochica los Muiscas se cubrían con planchas burdas de algodón en rama atadas con fique. Bochica les enseñó a hilar el algodón y tejer mantas, además de darles consejos morales, mientras recorría los pueblos de la Sabana.",
       det: "<span>Enseñanza:</span> Hilar y tejer algodón<br><span>Otros nombres:</span> Nemqueteba, Xué, Sadigua, Sugumonxe"
     },
     {
       sala: 3, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cerámica", titulo: "Vasijas y cerámica doméstica",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/6DbSNIM.jpeg",
       desc: "La cerámica muisca cumplía funciones domésticas y rituales: ollas, cuencos y copas, muchas con decoración geométrica. Las piezas rituales, más finas, aparecían junto a momias y ofrendas en tumbas y santuarios.",
       det: "<span>Usos:</span> Doméstico y ritual<br><span>Decoración:</span> Motivos geométricos"
     },
     {
       sala: 3, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Ritual", titulo: "El poporo y la hoja de coca",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/ubBq4nH.jpeg",
       desc: "El poporo, un calabazo que guardaba cal, se usaba junto con hojas de coca en un ritual de mambeo asociado al estatus y a la vida ceremonial. Se han hallado poporos acompañando momias muiscas junto con tunjos y mochilas tejidas.",
       det: "<span>Objeto:</span> Poporo (calabazo con cal)<br><span>Uso:</span> Mambeo ritual de hoja de coca"
     },
