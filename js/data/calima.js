@@ -91,7 +91,7 @@ export const piezasCalima = [
     {
       sala: 2, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Narigueras de formas geométricas",
-      foto "https://i.imgur.com/0A4kfO7.jpeg",
+      foto: "https://i.imgur.com/0A4kfO7.jpeg",
       desc: "Las narigueras calima Yotoco destacan por sus formas geométricas audaces, en ocasiones de gran tamaño, que combinaban valor estético con la exhibición de estatus social de quien las portaba.",
       det: "<span>Objeto:</span> narigueras<br><span>Estilo:</span> formas geométricas de gran tamaño" },
     },
