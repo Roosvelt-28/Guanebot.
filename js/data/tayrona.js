@@ -17,7 +17,7 @@ export const piezasTayrona = [
     {
       sala: 0, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "¿Quiénes eran los Tayrona?",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/cLdY6cx.jpeg",
       desc: "Los Tayrona fueron un pueblo indígena que habitó las vertientes norte y occidental de la Sierra Nevada de Santa Marta, en el Caribe colombiano, entre los años 900 y 1600 d.C. Desarrollaron una de las sociedades más complejas de la Colombia prehispánica.",
       det: "<span>Período:</span> 900–1600 d.C.<br><span>Territorio:</span> Sierra Nevada de Santa Marta<br><span>Departamento:</span> Magdalena"
     },
