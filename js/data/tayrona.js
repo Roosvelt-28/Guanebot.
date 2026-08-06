@@ -137,28 +137,28 @@ export const piezasTayrona = [
     {
       sala: 4, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cosmovisión", titulo: "La Sierra Nevada, corazón del mundo",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/aSURbKQ.jpeg",
       desc: "Para los Tayrona y sus descendientes, la Sierra Nevada de Santa Marta es el 'corazón del mundo', un territorio sagrado organizado en 'Línea Negra' que conecta lugares espirituales entre la costa y las cumbres nevadas.",
       det: "<span>Concepto:</span> corazón del mundo<br><span>Territorio sagrado:</span> Línea Negra"
     },
     {
       sala: 4, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cosmovisión", titulo: "Los mamas, guardianes espirituales",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/xdLftoQ.jpeg",
       desc: "Los mamas eran los sacerdotes y sabios tayrona, formados desde la infancia para interpretar el mundo espiritual y guiar a la comunidad. Su rol continúa hoy entre los pueblos Kogui y Arhuaco.",
       det: "<span>Rol:</span> sacerdote y sabio<br><span>Formación:</span> desde la infancia<br><span>Continuidad:</span> pueblos Kogui y Arhuaco"
     },
     {
       sala: 4, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Legado", titulo: "Herederos vivos de los Tayrona",
-      foto: "PENDIENTE",
+      foto: "blob:https://imgur.com/f101d922-d20b-400c-8de5-2ad8c95fc5b7",
       desc: "Los pueblos Kogui, Wiwa, Arhuaco y Kankuamo, que hoy habitan la Sierra Nevada de Santa Marta, son considerados herederos directos de la cultura tayrona y mantienen vivas muchas de sus tradiciones.",
       det: "<span>Pueblos herederos:</span> Kogui, Wiwa, Arhuaco, Kankuamo<br><span>Territorio actual:</span> Sierra Nevada de Santa Marta"
     },
     {
       sala: 4, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Legado", titulo: "El Museo del Oro Tayrona",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/aqoiiwL.jpeg",
       desc: "En Santa Marta, el Museo del Oro Tayrona conserva más de 470 piezas prehispánicas —orfebrería, cerámica, hueso, concha y piedra— que permiten conocer de cerca la riqueza material de esta cultura.",
       det: "<span>Sede:</span> Casa de la Aduana, Santa Marta<br><span>Colección:</span> más de 470 piezas prehispánicas"
     },
