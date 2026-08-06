@@ -47,28 +47,28 @@ export const piezasTayrona = [
     {
       sala: 1, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arquitectura", titulo: "Terrazas y caminos empedrados",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/JAPqLFG.jpeg",
       desc: "En los valles boscosos de la Sierra Nevada, los Tayrona construyeron ciudades sobre cimientos de piedra, con caminos enlozados y sistemas de drenaje. En terrazas escalonadas de cultivo sembraban maíz, yuca y aguacate.",
       det: "<span>Infraestructura:</span> terrazas, caminos de piedra, drenajes<br><span>Cultivos:</span> maíz, yuca, aguacate"
     },
     {
       sala: 1, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arquitectura", titulo: "La Ciudad Perdida",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/77uO0dP.jpeg",
       desc: "Teyuna, conocida hoy como la Ciudad Perdida, fue uno de los principales centros urbanos tayrona, con más de 200 terrazas de piedra conectadas por escalinatas. Se calcula que fue habitada entre los siglos VIII y XVI.",
       det: "<span>Nombre original:</span> Teyuna<br><span>Terrazas:</span> más de 200<br><span>Habitada:</span> siglo VIII al XVI"
     },
     {
       sala: 1, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arquitectura", titulo: "Ingeniería hidráulica",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/pny2tjO.jpeg",
       desc: "Los Tayrona diseñaron sofisticados sistemas de canales y drenajes para controlar el agua de las quebradas de la sierra, evitando la erosión y garantizando el suministro para sus cultivos y viviendas.",
       det: "<span>Innovación:</span> canales y drenajes<br><span>Función:</span> control del agua y prevención de erosión"
     },
     {
       sala: 1, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Arquitectura", titulo: "Red de ciudades conectadas",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/qpTJ02Y.jpeg",
       desc: "Las ciudades tayrona no estaban aisladas: una extensa red de caminos de piedra conectaba los asentamientos de tierra caliente en la costa con los poblados de tierra fría en las partes altas de la sierra.",
       det: "<span>Red vial:</span> caminos de piedra intersierra<br><span>Conexión:</span> costa – tierras altas"
     },
