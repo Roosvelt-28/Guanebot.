@@ -107,28 +107,28 @@ export const piezasTayrona = [
     {
       sala: 3, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Cerámica", titulo: "Vasijas antropomorfas",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/qtbmpiW.jpeg",
       desc: "La cerámica tayrona incluía vasijas con forma humana o animal, usadas tanto en la vida diaria como en contextos funerarios y ceremoniales, reflejando su cosmovisión en objetos de uso cotidiano.",
       det: "<span>Tipo:</span> vasijas antropomorfas y zoomorfas<br><span>Uso:</span> doméstico, funerario, ceremonial"
     },
     {
       sala: 3, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Vida cotidiana", titulo: "Pesca y agricultura",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/2xswa0P.jpeg",
       desc: "La economía tayrona combinaba la pesca en el mar Caribe con una agricultura intensiva de terrazas en la sierra, lo que les permitió sostener poblaciones numerosas en un territorio de fuertes desniveles.",
       det: "<span>Actividades:</span> pesca marina, agricultura de terrazas<br><span>Resultado:</span> alta densidad poblacional"
     },
     {
       sala: 3, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Textiles", titulo: "Mochilas y tejidos de fique",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/vgKleS7.jpeg",
       desc: "Los Tayrona elaboraban mochilas y tejidos con fibra de fique, una tradición textil que continúa hoy entre sus descendientes culturales, los pueblos Kogui, Wiwa, Arhuaco y Kankuamo de la Sierra Nevada.",
       det: "<span>Material:</span> fibra de fique<br><span>Continuidad:</span> Kogui, Wiwa, Arhuaco, Kankuamo"
     },
     {
       sala: 3, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Vida cotidiana", titulo: "El intercambio con el Caribe",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/M3ZuS4I.jpeg",
       desc: "Por su ubicación costera, los Tayrona intercambiaban productos con otros pueblos del Caribe, incluyendo caracoles marinos, sal y objetos de concha, ampliando su red comercial más allá de la sierra.",
       det: "<span>Bienes de intercambio:</span> caracoles marinos, sal, concha<br><span>Alcance:</span> costa Caribe colombiana"
     },
