@@ -24,21 +24,21 @@ export const piezasTayrona = [
     {
       sala: 0, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "El período Nahuange, sus antecesores",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/wFsFhGJ.jpeg",
       desc: "Antes de los Tayrona, entre el 200 y el 900 d.C., las costas de la Sierra Nevada estuvieron habitadas por comunidades del período Nahuange: orfebres, agricultores y pescadores que sentaron las bases culturales de la región.",
       det: "<span>Período Nahuange:</span> 200–900 d.C.<br><span>Actividades:</span> orfebrería, agricultura, pesca"
     },
     {
       sala: 0, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Sociedad", titulo: "Una sociedad jerarquizada",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/N049GXE.jpeg",
       desc: "La sociedad tayrona estaba dividida entre caciques, sacerdotes (mamas), orfebres, agricultores y comerciantes. Los caciques y sacerdotes concentraban el poder político y espiritual, y se distinguían por sus ornamentos de oro.",
       det: "<span>Jerarquía:</span> caciques y mamas (sacerdotes) → orfebres y comerciantes → agricultores<br><span>Poder:</span> político y espiritual combinado"
     },
     {
       sala: 0, lado: "R2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "El fin del período Tayrona",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/QinwVSt.jpeg",
       desc: "Tras la llegada de los españoles a comienzos del siglo XVI, los Tayrona resistieron por décadas la conquista, hasta que sus ciudades fueron finalmente abandonadas o destruidas a comienzos del siglo XVII.",
       det: "<span>Llegada española:</span> inicios del siglo XVI<br><span>Fin del período:</span> inicios del siglo XVII"
     },
