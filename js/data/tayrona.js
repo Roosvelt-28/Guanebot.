@@ -77,28 +77,28 @@ export const piezasTayrona = [
     {
       sala: 2, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "El hombre murciélago",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/sNtjvmT.jpeg",
       desc: "Una de las piezas más emblemáticas de la orfebrería tayrona representa a un cacique o sacerdote con rasgos de murciélago. Este animal era símbolo de poder, y solo las élites podían portar adornos con su figura.",
       det: "<span>Figura:</span> hombre murciélago<br><span>Simbolismo:</span> poder y estatus élite"
     },
     {
       sala: 2, lado: "L2", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Placas aladas",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/7bxnV1B.jpeg",
       desc: "Las placas aladas, con forma de aves de alas desplegadas, son otro símbolo característico de la orfebrería tayrona y nahuange, asociadas al vuelo nocturno y al viaje espiritual entre mundos.",
       det: "<span>Objeto:</span> placas aladas<br><span>Simbolismo:</span> vuelo nocturno, viaje espiritual"
     },
     {
       sala: 2, lado: "R", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Orfebrería", titulo: "Pectorales y narigueras en tumbaga",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/Blb1aQ4.jpeg",
       desc: "Los orfebres nahuange y tayrona martillaban pectorales y narigueras en tumbaga, una aleación de oro y cobre de superficie pulida y tonos rojizos, decorados con puntos, círculos y serpientes de dos cabezas.",
       det: "<span>Aleación:</span> tumbaga (oro + cobre)<br><span>Motivos:</span> puntos, círculos, serpientes bicéfalas"
     },
     {
       sala: 2, lado: "R2", forma: "esfera", escala: [0.65],
       tag: "Orfebrería", titulo: "El poporo tayrona",
-      foto: "PENDIENTE",
+      foto: "https://i.imgur.com/nS2eiUG.jpeg",
       desc: "Como en otras culturas del norte de Colombia, el poporo era un objeto ritual de gran valor entre los Tayrona: guardaba cal usada en el mambeo de hoja de coca y era símbolo de la vida adulta y el estatus social del hombre.",
       det: "<span>Objeto:</span> poporo<br><span>Uso:</span> ritual de mambeo, símbolo de estatus"
     },
