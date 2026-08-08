@@ -13,7 +13,7 @@ export const salasTayrona = [
 ];
 
 export const piezasTayrona = [
-    // ── SALA 1: ¿Quiénes eran los Tayrona? ───────────────────────────────
+    // ── SALA 1: ¿Quiénes eran los Tayrona? ────────────────────────────
     {
       sala: 0, lado: "L", forma: "cuadro", escala: [4.29, 2.73],
       tag: "Historia", titulo: "¿Quiénes eran los Tayrona?",
